@@ -1,22 +1,15 @@
 import React from "react";
 import { render } from "react-dom";
 import { Link, Router } from "@reach/router";
-import SearchParams from "./SearchParams";
-import Details from "./Details";
+
 
 const App = () => {
     return (
-        <React.StrictMode>
-            <div id="something-important">
-                <header>
-                    <Link to="/">Adopt Me!</Link>
-                </header>
+        
                 <Router>
-                    <SearchParams path="/" />
-                    <Details path="/details/:id" />
+                    <Home path="/" />
                 </Router>
-            </div>
-        </React.StrictMode>
+
     );
 };
 render(<App />, document.querySelector("#root"));
