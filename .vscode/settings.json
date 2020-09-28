@@ -5,8 +5,8 @@
     "files.exclude": {
         ".cache/": false,
         "dist": false,
-        ".eslintrc.json": true,
-        ".prettierrc": true,
-        "package-lock.json": true
+        ".eslintrc.json": false,
+        ".prettierrc": false,
+        "package-lock.json": false
     }
 }
